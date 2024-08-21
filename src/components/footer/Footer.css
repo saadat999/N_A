@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300&display=swap');
+
+#foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    /* background-color: grey; */
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    background: #7b8358;
+    color: #FFFAF9;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+
+.content {
+    width: 600px;
+    font-size: 15px;
+    text-align: start;
+
+
+    p {
+        margin-top: 5px;
+    }
+}
+
+
+.logo-n {
+    margin-bottom: 10px;
+    color: rgba(194, 182, 182, 0.571);
+}
+
+a {
+    display: flex;
+    text-decoration-line: none;
+    margin-top: 15px;
+    color: #f9fcf8e9;
+
+
+}
+
+
+a  {
+    
+    text-decoration: none;
+    transition: transform 0.5s ease;
+}
+
+a:hover  {
+    font-weight: 400;
+    color:#e5ebd5cd;
+    transform: translateY(5px);
+    
+}
+
+
+h5 {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 13px;
+    color: #474742;
+    margin-top: 11px;
+    margin-bottom: -5px;
+}
+
+input {
+    outline: none;
+    margin-bottom: 8px;
+    padding: 15px 0 11px 6px;
+    border-radius: 10px;
+
+
+    &::placeholder {
+        color: #292525;
+    }
+}
+
+.contacts {
+
+    p {
+        margin-top: 15px;
+    }
+}
+
+.second {
+
+    margin-top: 25px;
+    display: flex;
+    gap: 50px;
+
+    h3 {
+        padding-top: 50px;
+
+        color: #d7ecd2e2;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 20px;
+
+        position: relative;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    /* h3:hover {
+        text-decoration: underline;
+        transition: ease-in 3ms;
+        text-transform: initial;
+    } */
+
+    h3:after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        width: 0;
+        height: 1px;
+        /* Высота линии */
+        background-color: #363a22;
+        /* Цвет подчеркивания при исчезании линии*/
+        transition: width 0.5s;
+        /* Время эффекта */
+    }
+
+    h3:hover:after {
+        content: "";
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        height: 1px;
+        /* Высота линии */
+        background-color: #525447;
+        /* Цвет подчеркивания при появлении линии*/
+        transition: width 0.6s;
+        /* Время эффекта */
+    }
+
+}
