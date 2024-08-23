@@ -10,6 +10,8 @@ const Hero = () => {
     return (
         <div className='container'>
             <div className='hero'>
+                <img width={300} height={350} src={'/kol.png'} alt="" />
+                <img width={300} height={350} src={'./kol.png'} alt="" />
                 <img width={300} height={350} src={im1} alt="" />
                 <img width={300} height={350} src={im2} alt="" />
                 <img width={300} height={350} src={im3} alt="" />
