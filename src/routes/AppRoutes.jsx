@@ -3,11 +3,11 @@
 
 import React from 'react'
 import { Route, Routes } from "react-router-dom"
-import CatalogPage from '../pages/CatalogPage'
+
 import HomePage from '../pages/HomePage'
 import AboutPage from '../pages/AboutPage'
 import HistoryPage from '../pages/HistoryPage'
-import Cart from '../pages/Cart'
+import CatalogPage from '../pages/CatalogPage'
 
 
 const routes = [
@@ -27,12 +27,12 @@ const routes = [
         path: '/historical',
         component: <HistoryPage/>
     },
-    {
-        path: '/',
-        component: <Cart/>
-    },
+  
+
 
 ]
+
+
 const AppRoutes = () => {
     return (
         <Routes>

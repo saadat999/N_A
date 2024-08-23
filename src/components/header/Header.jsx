@@ -3,10 +3,11 @@
 import React from 'react'
 import './Header.css'
 import { Link } from "react-router-dom"
-const Header = () => {
-
-
-
+const Header = (props) => {
+    const {setModal} = props
+    const openCart = () => {
+        setModal(true)
+    }
 
     return (
         <>
@@ -24,14 +25,17 @@ const Header = () => {
             <div className="catalog container">
                 <div id='fir' className='firstt'>
 
-                    <Link to={'/catalog'}>catalog</Link>
+                    <Link to={'/catalog'}>Каталог</Link>
 
-                    <Link to={'/about_spot'}>About</Link>
+                    <Link to={'/about_spot'}>Бренд жөнүндө</Link>
                 </div>
 
                 <div className='secondd'>
                     <h3>Search</h3>
-                    <h3>Cart</h3>
+                    <button onClick={() => {
+                        openCart()
+
+                    }}>Cart</button>
                 </div>
 
             </div>

@@ -27,20 +27,20 @@ const Footer = () => {
                 <div className='second'>
                     <div className="navigation">
                         <h3>Навигация</h3>
-                        <Link to={'/historical'}>биздин тарыx</Link>
-                        <Link >төлөм</Link>
-                        <a href="">жеткирүү</a>
+                        <Link className='lala' to={'/historical'}>биздин тарыx</Link>
+                        <Link className='lala' >төлөм</Link>
+                        <a className='lala' href="">жеткирүү</a>
                     </div>
                     <div className="social">
                         <h3>Социалдык баракчалар</h3>
-                        <a  href="" >Tик Ток</a>
-                        <a  href="https://www.instagram.com/nukura_ayim_cosmetics" target="_blank">Инстаграм</a>
+                        <a className='lala'  href="" >Tик Ток</a>
+                        <a className='lala' href="https://www.instagram.com/nukura_ayim_cosmetics" target="_blank">Инстаграм</a>
                     </div>
                     <div className="contacts">
                         <h3>Байланыш</h3>
                         <p>923847930487</p>
-                        <a  href="https://wa.me/996500285685?text=Привет!">впга жазуу</a>
-                        <a  href="https://t.me/AselSovetbekovna" target="_blank">тгга жазуу</a>
+                        <a className='lala' href="https://wa.me/996500285685?text=Саламатсызбы!">WhatsAppка жазуу</a>
+                        <a className='lala'  href="https://t.me/AselSovetbekovna" target="_blank">Telegramга жазуу</a>
 
 
                         <p> © 2024,  Nukura Aiym Cosmetics</p>

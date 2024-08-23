@@ -41,13 +41,13 @@ a {
 }
 
 
-a  {
+.lala  {
     
     text-decoration: none;
     transition: transform 0.5s ease;
 }
 
-a:hover  {
+.lala:hover  {
     font-weight: 400;
     color:#e5ebd5cd;
     transform: translateY(5px);

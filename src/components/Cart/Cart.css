@@ -1,0 +1,12 @@
+.cart {
+    position: absolute;
+    top: 0;
+     left: 0;
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(65, 59, 59, 0.592);
+    
+}
