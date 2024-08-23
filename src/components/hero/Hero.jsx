@@ -2,11 +2,9 @@
 
 import React from 'react'
 import './Hero.css'
-
-
 import im1 from '../../assets/kol.png'
-import im2 from '../../assets/ezhe.png'
-import im3 from '../../assets/first.png'
+import im2 from '../../assets/ezhe.JPG'
+import im3 from '../../assets/first.JPG'
 
 const Hero = () => {
     return (
