@@ -3,8 +3,8 @@
 import React from 'react'
 import './Hero.css'
 import im1 from '../../assets/kol.png'
-import im2 from '../../assets/ezhe.JPG'
-import im3 from '../../assets/first.JPG'
+import im2 from '../../assets/ezhe.jpg'
+import im3 from '../../assets/first.jpg'
 
 const Hero = () => {
     return (
